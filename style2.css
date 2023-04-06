@@ -1,0 +1,421 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* start here */
+#imageframe {
+    height: 700px;
+    width: 1519px;
+}
+nav {
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/fcdbcd90-f133-4081-ac82-34918f18aabf/KR-ko-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: absolute;
+    top: -;
+}
+
+nav.before {
+    content: " ";
+    background: linear-gradient(to top, black, transparent) ;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.navbar {
+    height: 86px;
+    border: 1px solid black;
+    z-index: 1;
+    
+}
+
+.navbar_content {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.biglogo {
+    size: 40px;
+    padding: 0 516.400px 0 0;
+    border: 2px solid green;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.navbarright {
+    border: 2px solid blueviolet;
+    display: flex;
+    height: 100%;
+    width: 200px;
+    
+    
+    
+}
+
+
+.lang {
+    border: 2px solid green;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#langselect {
+    color: white;
+    margin: 0 auto;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px  ;
+    height: 35px;
+    width: 100%; 
+    padding-left: 10px;
+}
+
+.login {
+    border: 2px solid green;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.loginbutton {
+    color: white;
+    background: red;
+    margin: 0 auto;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 100%;
+
+}
+
+.containerparent {
+    display: flex;
+    height: 240px;
+    width: 1519px;
+}
+
+.container {
+    height: 240px;
+    width: 838px;
+    margin: 0 auto;
+    margin-top : 120px;
+
+}
+
+
+
+.content {
+    text-align: center; 
+    color: white;
+
+}
+
+.titleone {
+    font-size: 50px;
+    color: white;
+}
+.titletwo {
+    font-size: 26px;
+}
+
+.titlethird {
+    font-size: 20px;
+}
+
+.email {
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    width: 400px;
+
+}
+
+.putemail {
+
+    height: 100%;
+    border-radius:5px;
+    background-color: black;
+    border-color: rgb(46, 42, 42);
+    margin-right: 10px;
+}
+
+.startbutton {
+    height: 100%;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.firstborder {
+    width: 100%;
+    height: 8px;
+    background-color: #8c8c8c;
+
+}
+
+.section {
+    border: 2px solid white;
+    height: 416px;
+    width: 1519px;
+    padding: 72px 0 ;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+
+}
+.box_one {
+    border: 2px solid white;
+    height: 416px;
+    width: 1110px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.articlew {
+    border: 2px solid white;
+    color: white;
+    height: 416px;
+    width: 580px;
+    
+}
+
+.articlev {
+    border: 2px solid white;
+    height: 416px;
+    width: 580px;    
+}
+
+.first_w {
+    border: 2px solid white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+.first_wp {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem, 0,0;
+}
+.img_one {
+    position: relative;
+    z-index: 2;
+}
+
+.video_one {
+    position: relative;
+    top: -396px;
+    left: 60px;
+    z-index: 1;
+}
+
+
+.sec_border {
+    width: 100%;
+    height: 8px;
+    background-color: #8c8c8c;
+
+}
+/* video location fixed on pic or frame?? */ 
+.articlev_two {
+
+}
+
+.quest {
+    border: white;
+    color: white;
+    background-color: black;
+    height: 880px;
+    width: 1519px;
+    padding: 72px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quest_box {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_quest {
+    height: 64px;
+    width: 1170px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.quest_detail {
+    width: 1122px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+.quest_zero {
+    background-color: gray;
+    margin-bottom: 10px;
+
+}
+
+.quest_one {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: gray;
+    width: 1122px;
+    height: 1.5rem;
+    padding: 10px 0;
+    margin-bottom: 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.quest_two {
+    border: 2px solid red;
+    font-size: 1.5rem;
+    background-color: gray;
+    width: 1122px;
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+
+.quest_third {
+    columns: white;
+    background-color: gray;
+    height: 128px;
+    width: 1122px;
+}
+
+.link {
+    color: white;
+    font-size: 1.5rem;
+}
+/* <a> 태그가 안보임 */ 
+.email_two {
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backfoot {
+    background-color: black;
+    width: 1519px;
+    height: 640px;
+}
+footer { 
+    color: gray;
+    background-color: black;
+    height: 570px;
+    width: 1170px;
+    padding: 60px 0;
+    margin: 0 174px;
+    
+
+
+}
+
+.foot_one {
+    border: 2px solid white;
+    width: 1170px;
+    height: 21px;
+    padding: 12px 0;
+    margin: 0 auto;
+}
+
+.tel {
+    color: gray
+}
+
+.list {
+    height: 177px;
+    width: 1170px;
+    padding: 12px 0;
+
+}
+.listt {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.footlist {
+    height: 21px;
+    width: 382px;
+
+}
+
+
